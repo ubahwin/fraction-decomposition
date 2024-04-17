@@ -42,6 +42,7 @@ struct Main: View {
                 }
                 .padding()
             }
+            .font(.title)
             .navigationTitle("Представление рациональных чисел непрерывными дробями")
         }
         .onKeyPress(keys: [.space]) { press in
